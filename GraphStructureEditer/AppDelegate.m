@@ -120,13 +120,14 @@
     NSLog(@"サービス検索");
     peripheral.delegate = self;
     // TODO: ここに利用するサービスを記述する
-    [peripheral discoverServices:@[[CBUUID UUIDWithString:@"1812"]]];
+    [peripheral discoverServices:nil];
 }
 
 //サービスが保持するキャラクタリスティックの検索
 - (void)peripheral:(CBPeripheral *)peripheral didDiscoverServices:(NSError *)error{
     NSLog(@"キャラクタリスティック検索");
     for(CBService *service in peripheral.services){
+        NSLog(@"%@",service.UUID);
         [peripheral discoverCharacteristics:nil forService:service];
     }
 }
@@ -136,6 +137,7 @@
     NSLog(@"Notificationセット");
     for(CBService *service in peripheral.services){
         for(CBCharacteristic *characteristic in service.characteristics){
+            NSLog(@"%@",characteristic.UUID);
             [peripheral setNotifyValue:YES forCharacteristic:characteristic];
         }
     }
@@ -143,7 +145,10 @@
 
 //データの取得
 - (void)peripheral:(CBPeripheral *)peripheral didUpdateValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error{
-    NSLog(@"%@",characteristic.value);
+    NSLog(@"%@",characteristic.UUID);
+    UInt8 batteryLevel;
+    [characteristic.value getBytes:&batteryLevel length:3];
+    NSLog(@"%d",batteryLevel);
 }
 
 //BLEManagerの状態変化ハンドラ
