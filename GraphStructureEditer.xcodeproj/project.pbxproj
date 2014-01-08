@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73E1C0417B0A91700DAD7A2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73E1C0217B0A8FB00DAD7A2 /* CoreMotion.framework */; };
 		A7A94FEE1797BCA4001E824B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A94FED1797BCA4001E824B /* UIKit.framework */; };
 		A7A94FF01797BCA4001E824B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A94FEF1797BCA4001E824B /* Foundation.framework */; };
 		A7A94FF21797BCA4001E824B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A94FF11797BCA4001E824B /* CoreGraphics.framework */; };
@@ -21,6 +22,13 @@
 		A7A9500E1797BCA4001E824B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A94FEF1797BCA4001E824B /* Foundation.framework */; };
 		A7A950161797BCA4001E824B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7A950141797BCA4001E824B /* InfoPlist.strings */; };
 		A7A950191797BCA4001E824B /* GraphStructureEditerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A950181797BCA4001E824B /* GraphStructureEditerTests.m */; };
+		A7A950241797BD56001E824B /* EditerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A950231797BD56001E824B /* EditerView.m */; };
+		A7A950271797C0C7001E824B /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A950261797C0C7001E824B /* Circle.m */; };
+		A7A9502A1797C226001E824B /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A950291797C226001E824B /* Edge.m */; };
+		A7BBB50717AB99840050D375 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BBB50517AB99570050D375 /* GameKit.framework */; };
+		A7C721CE182A439400BD2E26 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C721CD182A439400BD2E26 /* CoreBluetooth.framework */; };
+		A7C78EA217A644B700846140 /* BluetoothController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C78EA117A644B700846140 /* BluetoothController.m */; };
+		BFD4CEE817AFACC300302F40 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD4CEE717AFACC300302F40 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A73E1C0217B0A8FB00DAD7A2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		A7A94FEA1797BCA4001E824B /* GraphStructureEditer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphStructureEditer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A94FED1797BCA4001E824B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7A94FEF1797BCA4001E824B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,17 @@
 		A7A950151797BCA4001E824B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A7A950171797BCA4001E824B /* GraphStructureEditerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphStructureEditerTests.h; sourceTree = "<group>"; };
 		A7A950181797BCA4001E824B /* GraphStructureEditerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphStructureEditerTests.m; sourceTree = "<group>"; };
+		A7A950221797BD56001E824B /* EditerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditerView.h; sourceTree = "<group>"; };
+		A7A950231797BD56001E824B /* EditerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditerView.m; sourceTree = "<group>"; };
+		A7A950251797C0C7001E824B /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		A7A950261797C0C7001E824B /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		A7A950281797C226001E824B /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		A7A950291797C226001E824B /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
+		A7BBB50517AB99570050D375 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		A7C721CD182A439400BD2E26 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A7C78EA017A644B700846140 /* BluetoothController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothController.h; sourceTree = "<group>"; };
+		A7C78EA117A644B700846140 /* BluetoothController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothController.m; sourceTree = "<group>"; };
+		BFD4CEE717AFACC300302F40 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C721CE182A439400BD2E26 /* CoreBluetooth.framework in Frameworks */,
+				A73E1C0417B0A91700DAD7A2 /* CoreMotion.framework in Frameworks */,
+				A7BBB50717AB99840050D375 /* GameKit.framework in Frameworks */,
 				A7A94FEE1797BCA4001E824B /* UIKit.framework in Frameworks */,
 				A7A94FF01797BCA4001E824B /* Foundation.framework in Frameworks */,
 				A7A94FF21797BCA4001E824B /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +105,7 @@
 		A7A94FE11797BCA4001E824B = {
 			isa = PBXGroup;
 			children = (
+				BFD4CEE717AFACC300302F40 /* icon.png */,
 				A7A94FF31797BCA4001E824B /* GraphStructureEditer */,
 				A7A950111797BCA4001E824B /* GraphStructureEditerTests */,
 				A7A94FEC1797BCA4001E824B /* Frameworks */,
@@ -101,6 +125,9 @@
 		A7A94FEC1797BCA4001E824B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7C721CD182A439400BD2E26 /* CoreBluetooth.framework */,
+				A73E1C0217B0A8FB00DAD7A2 /* CoreMotion.framework */,
+				A7BBB50517AB99570050D375 /* GameKit.framework */,
 				A7A94FED1797BCA4001E824B /* UIKit.framework */,
 				A7A94FEF1797BCA4001E824B /* Foundation.framework */,
 				A7A94FF11797BCA4001E824B /* CoreGraphics.framework */,
@@ -112,8 +139,16 @@
 		A7A94FF31797BCA4001E824B /* GraphStructureEditer */ = {
 			isa = PBXGroup;
 			children = (
+				A7C78EA017A644B700846140 /* BluetoothController.h */,
+				A7C78EA117A644B700846140 /* BluetoothController.m */,
 				A7A94FFC1797BCA4001E824B /* AppDelegate.h */,
 				A7A94FFD1797BCA4001E824B /* AppDelegate.m */,
+				A7A950221797BD56001E824B /* EditerView.h */,
+				A7A950231797BD56001E824B /* EditerView.m */,
+				A7A950251797C0C7001E824B /* Circle.h */,
+				A7A950261797C0C7001E824B /* Circle.m */,
+				A7A950281797C226001E824B /* Edge.h */,
+				A7A950291797C226001E824B /* Edge.m */,
 				A7A94FF41797BCA4001E824B /* Supporting Files */,
 			);
 			path = GraphStructureEditer;
@@ -227,6 +262,7 @@
 				A7A950001797BCA4001E824B /* Default.png in Resources */,
 				A7A950021797BCA4001E824B /* Default@2x.png in Resources */,
 				A7A950041797BCA4001E824B /* Default-568h@2x.png in Resources */,
+				BFD4CEE817AFACC300302F40 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +299,10 @@
 			files = (
 				A7A94FFA1797BCA4001E824B /* main.m in Sources */,
 				A7A94FFE1797BCA4001E824B /* AppDelegate.m in Sources */,
+				A7A950241797BD56001E824B /* EditerView.m in Sources */,
+				A7A950271797C0C7001E824B /* Circle.m in Sources */,
+				A7A9502A1797C226001E824B /* Edge.m in Sources */,
+				A7C78EA217A644B700846140 /* BluetoothController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,10 +405,13 @@
 		A7A9501D1797BCA4001E824B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GraphStructureEditer/GraphStructureEditer-Prefix.pch";
 				INFOPLIST_FILE = "GraphStructureEditer/GraphStructureEditer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,10 +419,13 @@
 		A7A9501E1797BCA4001E824B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GraphStructureEditer/GraphStructureEditer-Prefix.pch";
 				INFOPLIST_FILE = "GraphStructureEditer/GraphStructureEditer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -437,6 +483,7 @@
 				A7A9501E1797BCA4001E824B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7A9501F1797BCA4001E824B /* Build configuration list for PBXNativeTarget "GraphStructureEditerTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +492,7 @@
 				A7A950211797BCA4001E824B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
