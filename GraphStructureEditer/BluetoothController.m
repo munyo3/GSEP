@@ -1,6 +1,6 @@
 //
 //  BluetoothController.m
-//  Battle of Janken
+//  GSEP
 //
 //  Created by n_ito on 2013/07/11.
 //  Copyright (c) 2013年 n_ito. All rights reserved.
